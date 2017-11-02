@@ -1,0 +1,196 @@
+* {
+  font-family: 'NotoSansCJKjp-medium', 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  margin: 0 ;
+  padding: 0;
+  color: #ffe57f;
+}
+
+html {
+  font-size: 3rem;
+  background-color: black;
+}
+	html::scrollbar{width:15px;}
+	html::-webkit-scrollbar{width:15px;}
+	html{height:90vh;overflow-y:scroll;scrollbar-arrow-color:#333;scrollbar-shadow-color:#000;}
+	html::scrollbar-thumb{background:#333;}
+	html::-webkit-scrollbar-thumb{background:#333;}
+	html::scrollbar-button{background:#333;}
+	html::-webkit-scrollbar-button{background:#333;}
+
+#body_size {
+  height: 97%;
+  width: 98%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.title {
+  width: 97%;
+  font-size: 4rem;
+  line-height: 4.5rem;
+  padding: 1.7rem 0 1.3rem 1rem;
+}
+
+.title time {
+  float: right;
+  font-size: 2em;
+  vertical-align: text-bottom;
+  margin-right: 0.3em;
+}
+
+
+.game {
+  float: left;
+  width: 48%;
+  margin-left: 1rem;
+}
+
+.court {
+  font-size: 2rem;
+  vertical-align: bottom;
+  line-height: 1rem;
+}
+
+.courtnumber {
+  font-size: 2.4em;
+}
+
+.team_name {
+  font-size: 3rem;
+  color: #e3f2fd;
+}
+.team_name2 {
+  font-size: 3rem;
+  color: #e3f2fd;
+}
+
+.total_points {
+  font-size: 3rem;
+  text-align: right;
+}
+
+.total_points span {
+  font-size: 6rem;
+  text-align: right;
+  color: white;
+}
+
+.kanzen {
+  font-size: 6rem;
+  text-align: right;
+  color: #eeff41!important;
+  height:8rem;
+}
+
+.type_seiha {
+  font-size: 2rem;
+  text-align: right!important;
+  margin-top:.1rem!important;
+  padding-top:.2rem!important;
+  padding-bottom:1rem!important;
+  line-height:3rem
+	}
+	
+	.type_seiha span {
+  font-size: 3rem;
+  text-align: right;
+  color: white;
+	}
+
+.best {
+  display: table;
+  font-size: 1.2rem;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  clear: none;
+}
+
+.best div {
+  display: table-row;
+  font-size: 4rem;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.points_table {
+  width: 98%;
+  border: solid 0.3rem white;
+  border-collapse: collapse;
+}
+
+
+
+.points_table tr .points_item {
+  width: 62%;
+  border: solid 0.1rem white;
+  font-size: 3rem;
+  line-height: 6rem;
+  padding: 0 0 0 1rem;
+}
+
+.points_table tr .points_value {
+  width: 38%;
+  border: solid 0.1rem white;
+  font-size: 5rem;
+  line-height: 6rem;
+  padding: 0 1rem 0 0;
+  text-align: right;
+}
+
+button.footer {
+  width:5rem;
+  float:right;
+  background-color: rgba(4,4,4,0.3);
+  color: rgba(b,b,b,0.8);
+  margin-right: 1rem;
+  margin-top: rem;
+}
+
+.flex-container {
+	width:96%;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-justify-content: space-between;
+	justify-content:space-between;
+	margin-top:2.2em;
+}
+
+.f_item {
+	width:23%;
+	margin:.4em;
+	margin-bottom:2.2em;
+	padding:0;
+	text-align:center;
+	background:#222;
+	border-radius:1em;
+	-webkit-flex: 1 auto;
+	flex: 1 auto;
+}
+
+.flex-container2 {
+	width:190%;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: column wrap;
+	flex-flow: column wrap;
+	-webkit-justify-content: space-between;
+	justify-content:space-between;
+}
+
+.f_item2 {
+	width:auto;
+	margin:.3em;
+	text-align:center;
+	border-radius:1em;
+	-webkit-flex: 1 auto;
+	flex: 1 auto;
+}
+
+
+.noview {
+	display:none;
+}

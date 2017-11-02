@@ -1,0 +1,107 @@
+﻿* {
+  font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+select {
+	width:100%;
+	padding:1rem ;
+	font-size:12pt;
+}
+
+form,
+.flexwrap {
+  width: 100%;
+   display: -webkit-flex; 
+ display: flex; 
+ -webkit-flex-flow: column wrap; 
+ flex-flow: column wrap; 
+}
+
+
+form div.flex,
+.flexwrap button{ 
+padding:1rem 0;
+margin:1rem;
+-webkit-flex: 1 auto; 
+ flex: 1 auto; }
+
+@media screen and (min-width: 1080px) {
+
+form {
+  width: 100%;
+   display: -webkit-flex; 
+ display: flex; 
+ -webkit-flex-flow: column wrap; 
+ flex-flow: column wrap; 
+}
+
+form div.flex{ 
+margin-top:5rem;
+-webkit-flex: 1 auto; 
+ flex: 1 auto; }
+ 
+.flexwrap button{ 
+-webkit-flex: 1 auto; 
+ flex: 1 auto; }
+
+.flexwrap{
+   display: -webkit-flex; 
+ display: flex; 
+  margin: 1rem 2rem;
+ -webkit-flex-flow: row wrap; 
+ flex-flow: row wrap; 
+	-webkit-justify-content: space-around;
+	justify-content:space-around;
+}
+
+
+input {
+  width: 100%;
+  line-height: 5rem;
+  margin: 1rem 2rem;
+  color: black;
+  font-size: 3rem;
+}
+
+select {
+  width: 100%;
+  line-height: 5rem;
+  margin: 1rem 2rem;
+  color: black;
+  font-size: 7rem;
+}
+
+select　option {
+  width: 100%;
+  line-height: 3rem;
+  margin: 1rem 2rem;
+  color: black;
+  font-size: 3rem;
+}
+
+button {
+  text-align: center;
+  font-size: 6rem;
+  color: black;
+  margin:1em 4em 0 0;
+}
+form {
+  display: table;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30rem;
+}
+input {
+  color: rgba(f,f,f,0.4);
+}
+
+}

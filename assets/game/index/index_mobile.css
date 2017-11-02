@@ -1,0 +1,45 @@
+﻿@media screen and (max-width: 1080px) {
+  * {
+    font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    margin: 0 !important;
+    padding: 0 0.1rem !important;
+    color: white;
+  	font-size:1rem !important;
+    }
+
+  body {
+    background-color: black;
+  }
+
+  .game {
+  float: center;
+  width: 90%;
+  margin-left: 2.5rem;
+  }
+
+  .title {
+	padding:0!important;
+    width: 100%;
+  }
+
+  .team_name:first-letter {
+    font-size: 1.3rem
+  }
+
+  .total_points span {
+  font-size: 1.3rem !important;
+}
+
+  .title:first-letter {
+    font-size: 1.4rem;
+  }
+
+
+form button.footer {
+ margin-right: auto !important;
+ margin-left: auto !important; 
+ margin: 1rem !important;
+ line-height: 3rem !important;
+}
+
+}

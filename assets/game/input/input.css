@@ -1,0 +1,78 @@
+﻿* {
+  font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+	font-size-adjust:.8;
+  width:90%;
+  background-color: black;
+}
+
+.title {
+  width: 90%;
+  font-size: 3rem;
+  line-height: 5rem;
+}
+
+form {
+  width: 90%;
+}
+
+option {
+  line-height: 3rem;
+}
+
+input {
+  width: 95%;
+  line-height: 3rem;
+  margin: 1rem 2rem;
+  color: black;
+  font-size: 3rem;
+}
+
+button {
+  margin: 1rem 1.5rem;
+  font-size: 5em!important;
+  color: black;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+}
+#seiha {
+  margin: 2rem 1rem;
+  font-size: 3.5em!important;
+  color: black;
+  padding: .8rem;
+  background-color:#999;
+  width:90%;
+}
+#seiha.seihahover {
+	background-color:#dce775;
+	}
+
+.input_value {
+  width: 90%;
+  margin: 1rem 2rem;
+  clear: both;
+}
+
+.input_value p.item {
+  font-size: 2rem;
+  line-height:8rem!important;
+  float: right;
+  text-align: right;
+}
+
+.input_value button {
+  font-size: 2rem;
+  float: right;
+  padding: 0 1rem;
+  margin: 1rem;
+  color: black;
+}
+
+form button.footer {
+  width:7rem;
+}

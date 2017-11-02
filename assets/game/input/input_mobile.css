@@ -1,0 +1,124 @@
+﻿@media screen and (max-width: 8000px) {
+  * {
+    font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    }
+	
+	#scroll::scrollbar{width:25px;}
+	#scroll::-webkit-scrollbar{width:25px;}
+	#scroll{height:90vh;overflow-y:scroll;scrollbar-arrow-color:#64b5f6;scrollbar-shadow-color:#000;}
+	#scroll::scrollbar-thumb{background:#64b5f6;}
+	#scroll::-webkit-scrollbar-thumb{background:#64b5f6;}
+	#scroll::scrollbar-button{background:#64b5f6;}
+	#scroll::-webkit-scrollbar-button{background:#64b5f6;}
+
+  body {
+    width:100%;
+    background-color: black;
+  }
+
+  .title {
+    width: 95%;
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+
+  .title:first-letter {
+    font-size: 5rem;
+  }
+
+  form {
+    width: 95%;
+    margin: 0rem 2rem 2rem;
+  }
+
+  option {
+    line-height: 3rem;
+  }
+
+  input {
+    float: center;
+    line-height: 3rem;
+    margin: 1rem;
+    color: black;
+    font-size: 3rem;
+  }
+
+  .inputboxes{
+    margin-right: 2rem;
+  }
+
+  #table {
+	width:85%;
+    margin: 1rem 1rem;
+    padding-right: 1rem;
+    display: table;
+    border: dashed 0.6rem gray;
+  }
+
+  button {
+    margin: 1rem 2rem;
+    font-size: 5rem;
+    color: black;
+    padding: 0 1rem;
+  }
+  
+
+  .input_value {
+    margin: 1rem 2rem;
+    clear: both;
+    display: inline-table;
+  }
+
+  .input_value p {
+    font-size: 4rem;
+    float: left;
+    text-align: left;
+    display: table-row;
+  }
+  
+  .input_value p.item {
+    font-size: 4rem;
+    line-height: 8rem;
+    float: left;
+    text-align: left;
+    display: table-row;
+  }
+
+  .input_value p.value {
+    font-size: 6rem;
+    float: left;
+    text-align: left;
+    display: table-cell;
+	padding-top:2rem;
+    line-height: 1.1em;
+  }
+
+  .input_value button {
+    padding:1rem;
+    font-size: 9em;
+   /* width: 8rem;
+    height: 8rem; */
+    float: left;
+    text-align: center;
+    margin: 1rem;
+    color: black;
+    /*border-radius: 50%;*/
+    display: table-cell;
+  }
+
+  .input_value p.item {
+    font-size: 3rem;
+        width: 90%;
+        line-height: 1.6rem;
+  }  
+
+form button.footer {
+ width: 95%;
+ margin-right: auto;
+ margin-left: auto; 
+}
+
+}
