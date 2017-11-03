@@ -26,7 +26,7 @@
 
   <input id="member_name_second" type="text" placeholder="member_name_second" value="<?php echo $items['member_name_second']; ?>">
 
-  <input id="time_bonus" type="text" placeholder="time_mm:ss" value="<?php echo $items['time_bonus']; ?>">
+  
   
 </div>
   
@@ -75,15 +75,18 @@
 
   <?php endif; endforeach; ?>
   
-    <?php foreach($items as $key => $value): if($key == 'center_perfect_stop'): ?>
-<div id="<?php echo $key ?>" class="input_value">
-<button id="seiha" >完全制覇</button>
-<p class="value" style="visibility:hidden"><?php echo $value ?></p>
-<p class="item"><input class="item_input" type="hidden" value="<?php echo $key; ?>"></p>
-</div>
-  <?php endif; endforeach; ?>
+  <?php foreach($items as $key => $value): if($key == 'center_perfect_stop'): ?>
+    <div id="<?php echo $key ?>" class="input_value">
+      <button id="seiha" >完全制覇</button>
+       <p style="font-size: 3rem;">制覇時間</p>
+       <input id="time_bonus" type="text" placeholder="time_mm:ss" value="<?php echo $items['time_bonus']; ?>">
+      <p class="value" style="visibility:hidden"><?php echo $value ?></p>
+      <p class="item"><input class="item_input" type="hidden" value="<?php echo $key; ?>"></p>
+    </div>
+  <?php endif; endforeach; ?>      
   
 </div>
+<button id="set">SET</button>
 
 </form>
 
