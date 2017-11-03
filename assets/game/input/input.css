@@ -34,8 +34,8 @@ input {
 }
 
 button {
-  margin: 1rem 1.5rem;
-  font-size: 5em!important;
+  margin: 0.5rem 1rem;
+  font-size: 3em!important;
   color: black;
   padding: 0 1rem;
   margin-bottom: 2rem;
