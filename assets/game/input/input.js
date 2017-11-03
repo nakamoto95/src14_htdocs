@@ -7,7 +7,6 @@ $(function() {
     var team_name = $('#team_name').val();
     var member_name_first = $('#member_name_first').val();
     var member_name_second = $('#member_name_second').val();
-    var type_seiha = $('#type_seiha').val();
     var time_bonus = $('#time_bonus').val();
     $.post('/index.php/game/receive_text', {
       game_no: game_no,
@@ -15,7 +14,6 @@ $(function() {
       team_name: team_name,
       member_name_first: member_name_first,
       member_name_second: member_name_second,
-	  type_seiha: type_seiha,
       time_bonus: time_bonus
     }, function(data) {
       console.log(data);

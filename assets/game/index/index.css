@@ -56,7 +56,7 @@ html {
 }
 
 .team_name {
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: #e3f2fd;
 }
 .team_name2 {
@@ -70,19 +70,30 @@ html {
 }
 
 .total_points span {
-  font-size: 6rem;
+  font-size: 5rem;
   text-align: right;
   color: white;
 }
 
+.total_points_seiha {
+  font-size: 3rem;
+  text-align: right;
+}
+
+.total_points_seiha span {
+  font-size: 5rem;
+  text-align: right;
+  color: #eeff41!important;
+}
+
 .kanzen {
-  font-size: 6rem;
+  font-size: 5rem;
   text-align: right;
   color: #eeff41!important;
   height:8rem;
 }
 
-.type_seiha {
+.time_seiha {
   font-size: 2rem;
   text-align: right!important;
   margin-top:.1rem!important;
@@ -91,7 +102,7 @@ html {
   line-height:3rem
 	}
 	
-	.type_seiha span {
+.time_seiha span {
   font-size: 3rem;
   text-align: right;
   color: white;

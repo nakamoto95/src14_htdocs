@@ -16,18 +16,18 @@
   </div>
  </div>
  <div class="f_item2">
-  <div class=<?php echo (mb_strlen($game['team_name'])>5)? "team_name2" : "team_name";?>>
+  <div class=<?php echo (mb_strlen($game['team_name'])>6)? "team_name2" : "team_name";?>>
     <?php echo $game['team_name']; ?>
   </div>
  </div>
  <div class="f_item2">
-   <div class="total_points <?php if ($game['noview'] == 1) echo "noview"; ?>" ><span><?php echo $game['total']; ?></span>点
+   <div class="total_points <?php if ($game['center_perfect_stop'] != 0) echo "noview"; ?>" ><span><?php echo $game['total']; ?></span>点
   </div>
-  <div class="kanzen <?php if ($game['noview'] == 0) echo "noview"; ?>">完全制覇
+  <div class="total_points_seiha <?php if ($game['center_perfect_stop'] == 0) echo "noview"; ?>"><span><?php echo $game['total']; ?></span>点
   </div>
  </div>
   <div class="f_item2">
-  <div class="type_seiha <?php if ($game['noview'] == 0) echo "noview"; ?>">走破タイム: <span><?php echo $game['time_bonus']; ?></span>   
+  <div class="time_seiha <?php if ($game['center_perfect_stop'] == 0) echo "noview"; ?>">走破タイム: <span><?php echo $game['time_bonus']; ?></span>   
  </div>
  </div>
   </figure>

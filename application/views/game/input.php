@@ -34,7 +34,7 @@
 
 <div id="table">
 
-  <?php foreach($items as $key => $value): if($key != 'id' && $key != 'game_no' && $key != 'court' && $key != 'team_name' && $key != 'member_name_first' && $key != 'member_name_second' && $key != 'time_bonus' && $key != 'total' && $key != 'noview'): ?>
+  <?php foreach($items as $key => $value): if($key != 'id' && $key != 'game_no' && $key != 'court' && $key != 'team_name' && $key != 'member_name_first' && $key != 'member_name_second' && $key != 'time_bonus' && $key != 'total' && $key != 'noview' && $key != 'center_perfect_stop'): ?>
 
     <div id="<?php echo $key; ?>" class="input_value">
       <button class="plus">+</button>
@@ -69,15 +69,13 @@
           echo '【中心×】<br>MB4に置く';
         } elseif ($key == 'obstacle_block') {
           echo '障害物はｺﾝﾃﾅ';
-        } elseif ($key == 'center_perfect_stop') {
-          echo '完全制覇';
-        }
+        } 
       ?></p>
     </div>
 
   <?php endif; endforeach; ?>
   
-    <?php foreach($items as $key => $value): if($key == 'noview'): ?>
+    <?php foreach($items as $key => $value): if($key == 'center_perfect_stop'): ?>
 <div id="<?php echo $key ?>" class="input_value">
 <button id="seiha" >完全制覇</button>
 <p class="value" style="visibility:hidden"><?php echo $value ?></p>
