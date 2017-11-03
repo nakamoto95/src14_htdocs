@@ -6,35 +6,34 @@
 }
 
 html {
+  font-size: 3rem;
   background-color: black;
-  height: 1vh;
-  width:98%;
-  padding-left: 1%;
-  font-size: 0.8rem;
 }
-/*	html::scrollbar{width:15px;}
+	html::scrollbar{width:15px;}
 	html::-webkit-scrollbar{width:15px;}
 	html{height:90vh;overflow-y:scroll;scrollbar-arrow-color:#333;scrollbar-shadow-color:#000;}
 	html::scrollbar-thumb{background:#333;}
 	html::-webkit-scrollbar-thumb{background:#333;}
 	html::scrollbar-button{background:#333;}
 	html::-webkit-scrollbar-button{background:#333;}
-*/
+
 #body_size {
-  padding-right: auto;
-  padding-left: auto;
+  height: 97%;
+  width: 98%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .title {
-  width: 100%;
+  width: 97%;
   font-size: 4rem;
   line-height: 4.5rem;
-  padding: 1rem 0 1.3rem 1rem;
+  padding: 1.7rem 0 1.3rem 1rem;
 }
 
 .title time {
   float: right;
-  font-size: 1.6em;
+  font-size: 2em;
   vertical-align: text-bottom;
   margin-right: 0.3em;
 }
@@ -161,7 +160,7 @@ button.footer {
 }
 
 .flex-container {
-	width:100%;
+	width:96%;
 	display: -webkit-flex;
 	display: flex;
 	-webkit-flex-flow: row wrap;
